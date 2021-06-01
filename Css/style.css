@@ -2,7 +2,10 @@ html,body {
     margin: 0%;
     box-sizing: border-box;
     overflow-x: hidden;
+    display: block;
+    background-color: #F2DC99;
 }
+
 
 /*------------- Global Classes -------------*/
 
@@ -12,6 +15,7 @@ a {
 .flex-row {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 /*------ x ------ Global Classes ------ x ------*/
@@ -20,26 +24,45 @@ a {
 
 .nav {
     background: #F2DC99;
-    padding:0 3rem;
+    padding-left: 3%;
     height: 7rem;
-    min-height: 20vh;
+    min-height: 18.5vh;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-link li {
+    list-style: none;
+}
+
+.nav-link {
+    display: flex;
+    float: right;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.nav-link a {
+    color: #726FBF;
+    text-decoration: none;
+    letter-spacing: 4px;
+    font-weight: thin;
+    font-size: 20px;
+}
+
+nav img {
+    padding-top: 7%;
+    padding-left: 4%;
+    justify-content: space-between;
+    align-items: center;
+    height: 9rem;
+    min-height: 10vh;
     overflow: hidden;
 }
 
 .nav .nav-menu {
     justify-content: space-between;
-}
 
-nav img {
-    padding:0 0rem;
-    height: 11rem;
-    min-height: 15vh;
-    overflow: hidden;
-}
-
-.nav .nav-brand a {
-    font-size: 1.6rem;
-    padding: 1rem 0;
 }
 
 /*------ x ------ navbar ------ x ------*/
