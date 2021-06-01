@@ -39,5 +39,9 @@ nav {
 }
 
 .nav-links a {
-
+    color: #726FBF;
+    text-decoration: none;
+    letter-spacing: 4px;
+    font-weight: thin;
+    font-size: 20px;
 }
