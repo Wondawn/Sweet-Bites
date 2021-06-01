@@ -42,6 +42,19 @@ ul {
     justify-content: space-between;
 }
 
+.nav .toggle-collapse {
+    position:absolute;
+    top: 0%;
+    width: 90%;
+    cursor: pointer;
+}
+
+.nav .toggle-collapse .toggle-icons {
+    display: flex;
+    justify-content: flex-end;
+    padding 1.7rem 0;
+}
+
 .nav .nav-items {
     display: flex;
     margin: 0;
