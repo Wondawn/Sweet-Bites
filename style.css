@@ -3,3 +3,15 @@
     font-family: 'Montserrat';
 }
 
+
+header {
+    display: block;
+    background-color: #F2DC99;
+}
+
+
+header img {
+    width: 8%;
+    display: inline-block;
+    margin: 2%;
+}
