@@ -15,3 +15,29 @@ header img {
     display: inline-block;
     margin: 2%;
 }
+
+nav {
+    padding-top: 7%;
+    padding-left: 5%;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background-color: #F2DC99;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.nav-links li {
+    display: flex;
+    float: left;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+
+}
