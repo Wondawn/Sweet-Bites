@@ -47,12 +47,18 @@ ul {
     top: 0%;
     width: 90%;
     cursor: pointer;
+    display: none;
 }
 
 .nav .toggle-collapse .toggle-icons {
     display: flex;
     justify-content: flex-end;
-    padding 1.7rem 0;
+    padding: 2rem;
+}
+
+.nav .toggle-collapse .toggle-icons i {
+    font-size: 2.8rem;
+    color: #726FBF;
 }
 
 .nav .nav-items {
@@ -90,6 +96,9 @@ nav img {
     }
     html {
         background: #FEFEFE;
+    }
+    .nav .toggle-collapse {
+        display: initial;
     }
 }
 
