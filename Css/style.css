@@ -24,30 +24,20 @@ a {
 
 .nav {
     background: #F2DC99;
-    padding-left: 3%;
-    height: 7rem;
-    min-height: 18.5vh;
-    overflow: hidden;
+    padding: 0 2rem;
+    height: 0rem;
+    min-height: 40vh;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.nav-link li {
-    list-style: none;
+.nav .nav-menu {
+    justify-content: space-between;
 }
 
-.nav-link {
+.nav .nav-items {
+    list-style-type: none;
     display: flex;
-    float: right;
-    justify-content: space-around;
-    width: 80%;
-}
-
-.nav-link a {
-    color: #726FBF;
-    text-decoration: none;
-    letter-spacing: 4px;
-    font-weight: thin;
-    font-size: 20px;
+    margin: 0;
 }
 
 nav img {
@@ -60,9 +50,9 @@ nav img {
     overflow: hidden;
 }
 
-.nav .nav-menu {
-    justify-content: space-between;
-
-}
 
 /*------ x ------ navbar ------ x ------*/
+
+/*--------------- Burger menu ---------------*/
+
+/*------- x ------- Burger menu ------- x -------*/
