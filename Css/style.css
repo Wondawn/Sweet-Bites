@@ -61,6 +61,10 @@ ul {
     color: #726FBF;
 }
 
+.collapse {
+    height: 20rem;
+}
+
 .nav .nav-items {
     display: flex;
     margin: 0;
