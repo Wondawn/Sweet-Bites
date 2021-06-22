@@ -247,14 +247,8 @@ footer.footer {
 
 footer.footer .container {
     display: grid;
-    grid-template-columns: repeat(4);
+    grid-template-columns: repeat(4,1fr);
 }
-
-
-
-
-
-
 
 
 /*-------x-------- Footer -----------x---------*/
