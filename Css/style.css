@@ -216,16 +216,17 @@ section .container .owl-nav {
 }
 
 .owl-nav .owl-prev .owl-nav-prev,
-.owl-nav .owl-next .owl-nav-next {
-    color: grey;
+.owl-nav .owl-next .owl-nav-next{
+    color: var(--text-gray);
     background: transparent;
     font-size: 2rem;
 }
 
-.owl-theme .owl-nav [class*='owl-']:hover {
+.owl-theme .owl-nav [class*='owl-']:hover{
     background: transparent;
-    color: grey;
+    color: var(--midnight);
 }
+
 .owl-theme .owl-nav [class*='owl-']{
     outline: none;
 }
