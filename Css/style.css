@@ -9,6 +9,10 @@ html,body {
 
 /*------------- Global Classes -------------*/
 
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 a {
     text-decoration: none;
 }
@@ -241,7 +245,7 @@ section .container .owl-nav {
 
 footer.footer {
     height: 100%;
-    background: #FEFEFE;
+    background: rgb(20, 20, 20);
     position: relative;
 }
 
@@ -255,6 +259,39 @@ footer.footer .container > div {
     flex-basis: 0;
     padding: 3rem .9rem;
 }
+
+footer.footer .container h2 {
+    color: rgb(228, 228, 228);
+}
+
+footer.footer .container p {
+    color: rgb(228, 228, 228) ;
+    font-size: 1rem;
+}
+
+footer.footer .newsletter .form-element {
+    background:black;
+    display: inline-block;
+}
+
+footer.footer .newsletter .form-element input {
+    padding: .5rem .7rem;
+    border: none;
+    background: transparent;
+    color: grey;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+    width: 75%;
+
+} 
+
+footer.footer .newsletter .form-element span {
+    background: #FEFEFE;
+    padding: .5rem .8rem;
+    cursor: pointer;
+
+}
+
 
 /*-------x-------- Footer -----------x---------*/
 
