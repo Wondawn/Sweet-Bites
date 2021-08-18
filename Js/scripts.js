@@ -5,12 +5,13 @@ const responsive = {
     560:{
         items: 2
     },
-    760:{
-        items: 3
+    920:{
+        items: 4
     },
-    960:{
+    1080:{
         items: 4
     }
+
 }
 
 $(document).ready(function() {
